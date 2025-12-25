@@ -34,7 +34,7 @@ images.forEach(({ url, alt }) => {
 
   const img = document.createElement(`img`);
   img.src = url;
-  img.alt - alt;
+  img.alt = alt;
 
   li.append(img);
   fragment.append(li);
